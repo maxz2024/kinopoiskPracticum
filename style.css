@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Anonymous Pro Regular";
+    src: url(../fonts/AnonymousPro-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "Anonymous Pro Bold";
+    src: url(../fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* сброс стилей по умолчанию */
+body,
+h1,
+h2,
+h3,
+hr,
+p,
+ul,
+img,
+button,
+li {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* задание шрифта всей странице */
+body {
+    font-family: "Anonymous Pro Bold", sans-serif;
+    min-width: 100vh;
+    background-color: #100E19;
+    color: #ffffff;
+}
+
+
+.container-head {
+    background-color: #6C6C6C;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.title-search {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}
+
+.head-title {
+    text-align: center;
+    font-size: 48px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-categories {
+    display: flex;
+    height: 61px;
+    padding-top: 33px;
+    gap: 30px;
+    align-items: center;
+}
+
+.container-categories .container {
+    display: flex;
+    gap: 48px;
+    font-size: 32px;
+}
+
+.catalog-button {
+    display: flex;
+    align-items: center;
+    height: 59px;
+    gap: 25px;
+    color:#ffffff;
+    background: #F01111;
+    border: 1px solid #F01111;
+    border-radius: 10px;
+}
+
+.catalog-button p {
+    font-size: 32px;
+    font-family: "Anonymous Pro Bold";
+}
+
+.title-page {
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.container-film {
+    display: flex;
+    gap: 40px;
+}
+
+.container-film .img-film{
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    width: 213px;
+    height: 328px;
+}
+
+.container-film .img-age {
+    position: absolute;
+    display: flex;
+    right: 70%;
+    /* top: 547px;
+    left: 26%; */
+
+}
+.container-film .name-film {
+    font-size: 32px;
+    font-family: "Anonymous Pro Regular";
+    padding-top: 6px;
+    padding-bottom: 17px;
+}
+
+.container-film .price {
+    color: #717171;
+}
+
